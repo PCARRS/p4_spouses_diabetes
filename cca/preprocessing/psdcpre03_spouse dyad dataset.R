@@ -190,6 +190,6 @@ spouse_descriptives <- events %>%
 
 write.csv(
   spouse_descriptives,
-  paste0(path_spouses_diabetes_folder, "/Diabetes risk and incidence in spouse dyads.csv"),
+  paste0(path_spouses_diabetes_folder, "/cca results/Diabetes risk and incidence in spouse dyads cca.csv"),
   row.names = FALSE
 )

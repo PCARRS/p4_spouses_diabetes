@@ -92,7 +92,7 @@ incident_outcomes <- carrs_wide1 %>%
 		# Event date: visit date at first incident DM; otherwise last non-missing visit date
 		DateDMbiomarker = case_when(
 			dm_biomarker0 == 0 ~ {
-				visit_dates <- c_across(visitdate1:visitdate3)
+				visit_dates <- c_across(visit_date1:visit_date3)
 				if (is.na(event_DMbiomarker)) {
 					as.Date(NA)
 				} else if (event_DMbiomarker == 1) {
