@@ -1,3 +1,6 @@
+# Purpose: Complete-case Poisson RR models for Table 5.
+# Steps: Fit sex-specific models, compute RR with robust SE, format tables.
+# Output: Writes Table 5 outputs to cca/analysis/.
 rm(list = ls()); gc(); source(".Rprofile")
 
 library(ggplot2)

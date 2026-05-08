@@ -1,3 +1,6 @@
+# Purpose: Estimate baseline diabetes concordance across imputations.
+# Steps: Build 2x2 counts, fit logistic models per imputation, pool ORs and p-values.
+# Output: Writes concordance table cells and pooled OR outputs to analysis/.
 rm(list=ls());gc();source(".Rprofile")
 
 # Baseline diabetes concordance pooled across imputations

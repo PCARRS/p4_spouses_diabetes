@@ -1,3 +1,6 @@
+# Purpose: Build complete-case analytic dataset (wide) from harmonized CARRS data.
+# Steps: Define visit completion, derive diabetes indicators, merge baseline and spouse dyads.
+# Output: Saves the complete-case wide analytic dataset for CCA.
 rm(list=ls());gc();source(".Rprofile")
 
 library(haven)

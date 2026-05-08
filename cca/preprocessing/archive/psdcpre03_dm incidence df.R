@@ -1,3 +1,6 @@
+# Archive: Derive incident diabetes events and time-to-event for baseline DM-free participants.
+# Steps: Identify incident/censor dates and merge back to analytic data.
+# Output: Saves psdcpre03_analytic dataset long.RDS.
 rm(list=ls());gc();source(".Rprofile")
 
 recoded_df <- readRDS(paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/archive/psdcpre02_recoded_df.RDS"))

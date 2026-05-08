@@ -1,3 +1,6 @@
+# Purpose: Descriptive characteristics for complete-case dyads.
+# Steps: Compute sex-specific summaries, correlations, and missingness.
+# Output: Writes psdcan01_descriptive characteristics.csv.
 rm(list=ls());gc();source(".Rprofile")
 
 dyads <- readRDS(paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/psdcpre03_spouse dyad dataset.RDS"))
@@ -127,10 +130,6 @@ categorical_tbl <- map_dfr(grouped_vars, function(var) {
   
   result_rows
 })
-
-# ============================================================================
-# Combine all tables
-# ============================================================================
 
 # Add level column to continuous and binary tables
 continuous_tbl <- continuous_tbl %>% mutate(level = NA_character_, .after = variable)

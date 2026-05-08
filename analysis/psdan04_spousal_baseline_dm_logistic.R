@@ -1,3 +1,6 @@
+# Purpose: Fit pooled logistic models for incident diabetes by partner baseline status.
+# Steps: Fit sex-specific models per imputation and pool ORs with Rubin's rules.
+# Output: Writes Table 4 model outputs to analysis/.
 rm(list = ls()); gc(); source(".Rprofile")
 
 library(dplyr)

@@ -1,3 +1,6 @@
+# Purpose: Construct complete-case spouse dyads with time-to-event variables.
+# Steps: Split by sex, join into dyads, flag at-risk cohorts.
+# Output: Saves psdcpre03_spouse dyad dataset.RDS.
 rm(list=ls());gc();source(".Rprofile")
 
 carrs_recode <- readRDS(paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/psdcpre02_recoded dataset.RDS"))

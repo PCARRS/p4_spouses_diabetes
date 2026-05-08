@@ -1,3 +1,6 @@
+# Purpose: Complete-case logistic models for Table 4 (incident DM vs partner status).
+# Steps: Fit sex-specific models and format OR tables and plot data.
+# Output: Writes Table 4 outputs to cca/analysis/.
 rm(list = ls()); gc(); source(".Rprofile")
 
 library(dplyr)

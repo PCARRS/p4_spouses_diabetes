@@ -1,3 +1,6 @@
+# Purpose: Apply inclusion flags and derive incident DM timing for complete-case data.
+# Steps: Identify valid dyads/follow-up, compute event dates, recode covariates.
+# Output: Saves the complete-case recoded dataset for dyad construction.
 rm(list=ls());gc();source(".Rprofile")
 
 carrs_wide <- readRDS(paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/psdcpre01_wide analytic dataset.RDS"))

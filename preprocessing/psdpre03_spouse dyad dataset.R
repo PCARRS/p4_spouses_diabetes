@@ -1,3 +1,6 @@
+# Purpose: Build spouse dyads per imputation and compute time-to-event variables.
+# Steps: Split by sex, join into dyads, flag at-risk cohorts, define helper summaries.
+# Output: Saves the spouse dyad dataset list for analysis scripts.
 rm(list=ls());gc();source(".Rprofile")
 
 library(tibble)

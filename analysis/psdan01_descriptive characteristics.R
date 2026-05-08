@@ -1,6 +1,8 @@
+# Purpose: Produce pooled descriptive characteristics for imputed dyads.
+# Steps: Compute sex-specific summaries, correlations, and pool estimates via Rubin's rules.
+# Output: Writes the descriptive characteristics table to analysis/.
 rm(list=ls());gc();source(".Rprofile")
 
-library(dplyr)
 library(tibble)
 
 # Pooled descriptive characteristics across imputed dyads

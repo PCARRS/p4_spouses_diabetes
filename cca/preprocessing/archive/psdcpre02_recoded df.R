@@ -1,3 +1,6 @@
+# Archive: Recode covariates for the complete-case long spouse dataset.
+# Steps: Derive BP, morbidity, smoking/alcohol, and BMI categories.
+# Output: Saves psdcpre02_recoded_df.RDS.
 rm(list=ls());gc();source(".Rprofile")
 
 spouse_df <- readRDS(paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/archive/psdcpre01_long spouse complete cases.RDS"))

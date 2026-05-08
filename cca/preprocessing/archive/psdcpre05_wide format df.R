@@ -1,3 +1,6 @@
+# Archive: Convert long analytic dataset to spouse-wide format (updated pipeline).
+# Steps: Pivot to female_/male_ columns and keep households with both spouses.
+# Output: Saves psdcpre05_analytic dataset wide.RDS.
 rm(list=ls());gc();source(".Rprofile")
 
 analytic_df <- readRDS(paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/psdcpre04_analytic dataset long.RDS"))

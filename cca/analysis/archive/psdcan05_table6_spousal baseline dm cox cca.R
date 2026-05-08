@@ -1,3 +1,6 @@
+# Archive: Table 6 Cox models for spousal baseline DM using wide complete-case data.
+# Steps: Build baseline dyads, fit sex-specific Cox models, format HR rows.
+# Output: Prepares Table 6 HR outputs for export.
 rm(list=ls());gc();source(".Rprofile")
 
 analytic_df_wide <- readRDS(paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/archive/psdcpre04_analytic dataset wide.RDS"))

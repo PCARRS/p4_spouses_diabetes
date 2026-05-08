@@ -1,3 +1,6 @@
+# Archive: Define complete cases and identify eligible spouse dyads.
+# Steps: Define responders, keep biomarker visits, impute dates, filter baseline covariates.
+# Output: Saves complete-case spouse datasets for downstream steps.
 rm(list=ls());gc();source(".Rprofile")
 
 # ============================================================================

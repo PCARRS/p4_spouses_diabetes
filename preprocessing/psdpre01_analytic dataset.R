@@ -1,3 +1,6 @@
+# Purpose: Build wide analytic datasets for each imputed harmonized dataset.
+# Steps: Derive visit/diabetes outcomes, merge baseline covariates and spouse dyads.
+# Output: Saves a list of wide analytic datasets for downstream preprocessing.
 rm(list=ls());gc();source(".Rprofile")
 
 # Imputed wide dataset

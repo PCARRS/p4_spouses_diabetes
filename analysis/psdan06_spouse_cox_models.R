@@ -1,3 +1,6 @@
+# Purpose: Fit pooled Cox models for time to incident diabetes with spouse status.
+# Steps: Fit sex-specific models per imputation and pool HRs via Rubin's rules.
+# Output: Writes psdan06_spouse_cox_models_spouse_hr.csv.
 rm(list=ls());gc();source(".Rprofile")
 
 library(survival)

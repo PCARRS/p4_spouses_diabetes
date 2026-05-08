@@ -1,3 +1,6 @@
+# Purpose: Complete-case Cox models for spouse status and incident diabetes.
+# Steps: Fit sex-specific Cox models and export spouse HRs.
+# Output: Writes psdcan06_spouse_cox_models_spouse_hr.csv.
 rm(list=ls());gc();source(".Rprofile")
 
 library(dplyr)

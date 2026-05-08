@@ -1,3 +1,6 @@
+# Archive: Build complete-case spouse dyads from long data with imputed dates.
+# Steps: Trim non-response visits, impute dates, enforce one male/one female per household.
+# Output: Saves the long spouse complete-case dataset.
 rm(list=ls());gc();source(".Rprofile")
 
 # Input harmonized CARRS dataset (Exclude - Karachi site), N = 21,862

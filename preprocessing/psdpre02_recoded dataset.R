@@ -1,3 +1,6 @@
+# Purpose: Create analysis flags and recoded covariates on imputed wide datasets.
+# Steps: Identify valid dyads/follow-up, derive incident DM timing, recode covariates.
+# Output: Saves a recoded dataset list for dyad construction.
 rm(list=ls());gc();source(".Rprofile")
 
 carrs_wide_list <- readRDS(paste0(path_spouses_diabetes_folder, "/working/preprocessing/psdpre01_wide analytic dataset_list.RDS"))

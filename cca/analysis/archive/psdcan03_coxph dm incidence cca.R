@@ -1,3 +1,6 @@
+# Archive: Cox PH model for incident diabetes using long-format complete-case data.
+# Steps: Build event/censor dataset, fit Cox with clustered SE, plot HRs and check PH.
+# Output: Saves an HR plot and prints hazard ratio tables.
 rm(list=ls());gc();source(".Rprofile")
 
 source("cca/preprocessing/archive/psdcpre03_dm incidence df.R")

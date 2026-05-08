@@ -1,3 +1,6 @@
+# Purpose: Baseline diabetes concordance for complete cases.
+# Steps: Build 2x2 table, run Fisher test and logistic model, format cell outputs.
+# Output: Writes psdcan02_dm concordance table cells.csv.
 rm(list=ls());gc();source(".Rprofile")
 
 library(dplyr)

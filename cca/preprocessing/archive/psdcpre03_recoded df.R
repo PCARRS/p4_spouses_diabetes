@@ -1,3 +1,6 @@
+# Archive: Recode covariates for spouse dataset with imputed interview dates.
+# Steps: Derive morbidity, smoking/alcohol, and BMI categories.
+# Output: Saves psdcpre03_recoded_df.RDS.
 rm(list=ls());gc();source(".Rprofile")
 
 spouse_df <- readRDS(paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/psdcpre02_spouses with imputed date of interview.RDS"))

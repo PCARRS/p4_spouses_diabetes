@@ -1,3 +1,6 @@
+# Archive: Filter valid spouse dyads with biomarker availability and recode covariates.
+# Steps: Create follow-up eligibility and recode disease indicators and behaviors.
+# Output: Saves an intermediate analytic dataset for complete-case analyses.
 rm(list=ls());gc();source(".Rprofile")
 
 

@@ -1,3 +1,6 @@
+# Purpose: Fit pooled Poisson risk ratio models by partner baseline status.
+# Steps: Fit sex-specific models, use robust SE when available, pool estimates.
+# Output: Writes Table 5 RR outputs to analysis/.
 rm(list = ls()); gc(); source(".Rprofile")
 
 # Table 5 pooled RR models

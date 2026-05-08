@@ -1,3 +1,6 @@
+# Purpose: Table 3 follow-up risk by partner baseline diabetes status (pooled).
+# Steps: Build sex-stratified counts and pool proportions using Rubin's rules.
+# Output: Writes psdan03_followup_risk_by_spouse_baseline.csv.
 rm(list=ls());gc();source(".Rprofile")
 
 library(dplyr)

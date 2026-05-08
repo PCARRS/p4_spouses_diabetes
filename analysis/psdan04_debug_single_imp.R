@@ -1,3 +1,6 @@
+# Purpose: Debug single-imputation logistic models for Table 4.
+# Steps: Build sex-specific datasets and print model diagnostics for one imputation.
+# Output: Console diagnostics only.
 rm(list = ls()); gc(); source(".Rprofile")
 
 library(dplyr)

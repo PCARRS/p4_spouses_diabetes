@@ -1,3 +1,6 @@
+# Purpose: Table 3 complete-case follow-up risk by partner baseline status.
+# Steps: Build sex-stratified risk tables and format percentages.
+# Output: Writes psdcan03_followup_risk_by_spouse_baseline.csv.
 rm(list=ls());gc();source(".Rprofile")
 
 library(dplyr)
