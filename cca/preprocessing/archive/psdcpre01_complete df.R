@@ -282,5 +282,5 @@ complete_df <- dmbio_fup %>%
   dplyr::filter(pid %in% complete_pids$pid)
 
 
-saveRDS(dmbs_free, paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/psdcpre01_complete df.RDS"))
+saveRDS(dmbs_free, paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/psdcpre01_complete_df.RDS"))
 

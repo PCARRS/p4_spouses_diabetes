@@ -23,5 +23,5 @@ analytic_df_wide <- analytic_df %>%
   dplyr::filter(!is.na(female_pid), !is.na(male_pid))
 
 
-saveRDS(analytic_df_wide, paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/psdcpre05_analytic dataset wide.RDS"))
+saveRDS(analytic_df_wide, paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/psdcpre05_analytic_dataset_wide.RDS"))
 

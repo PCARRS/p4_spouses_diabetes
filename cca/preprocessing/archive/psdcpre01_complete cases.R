@@ -164,5 +164,5 @@ age_gap18 <- analytic_spouses %>%
 analytic_age18 <- analytic_spouses %>% 
   dplyr::filter(hhid %in% age_gap18$hhid) 
 
-saveRDS(analytic_age18, paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/archive/psdcpre01_long spouse complete cases.RDS"))
+saveRDS(analytic_age18, paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/archive/psdcpre01_long_spouse_complete_cases.RDS"))
 

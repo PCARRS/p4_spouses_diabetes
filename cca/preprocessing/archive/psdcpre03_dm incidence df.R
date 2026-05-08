@@ -53,5 +53,5 @@ analytic_df <- recoded_df %>%
                                  TRUE ~ 0)) %>% 
   ungroup()
 
-saveRDS(analytic_df, paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/archive/psdcpre03_analytic dataset long.RDS"))
+saveRDS(analytic_df, paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/archive/psdcpre03_analytic_dataset_long.RDS"))
 

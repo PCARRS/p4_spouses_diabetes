@@ -126,5 +126,5 @@ carrs_wide <- baseline %>%
             select(pid,hhid,spousedyad_new),
             by = c("pid","hhid"))
 
-saveRDS(carrs_wide, paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/psdcpre01_wide analytic dataset.RDS"))
+saveRDS(carrs_wide, paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/psdcpre01_wide_analytic_dataset.RDS"))
 

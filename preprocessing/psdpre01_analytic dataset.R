@@ -88,7 +88,7 @@ for (imp_num in seq_along(harmonized_datasets)) {
 
 saveRDS(
   wide_list,
-  paste0(path_spouses_diabetes_folder, "/working/preprocessing/psdpre01_wide analytic dataset_list.RDS")
+  paste0(path_spouses_diabetes_folder, "/working/preprocessing/psdpre01_wide_analytic_dataset_list.RDS")
 )
 
 

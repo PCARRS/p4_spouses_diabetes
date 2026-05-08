@@ -169,5 +169,5 @@ carrs_recode <- incident_outcomes %>%
     )
   )
 
-saveRDS(carrs_recode, paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/psdcpre02_recoded dataset.RDS"))
+saveRDS(carrs_recode, paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/psdcpre02_recoded_dataset.RDS"))
 

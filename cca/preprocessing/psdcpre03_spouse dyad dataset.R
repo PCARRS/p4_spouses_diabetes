@@ -55,7 +55,7 @@ dyads <- dyads0 %>%
     )
   )
 
-saveRDS(dyads, paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/psdcpre03_spouse dyad dataset.RDS"))
+saveRDS(dyads, paste0(path_spouses_diabetes_folder,"/working/cca/preprocessing/psdcpre03_spouse_dyad_dataset.RDS"))
 
 
 # SAS-like mean and ratio outputs (SRS assumptions for SE/CI)

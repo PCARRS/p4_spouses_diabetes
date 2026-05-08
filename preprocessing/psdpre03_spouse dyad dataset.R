@@ -68,7 +68,7 @@ for (imp_num in seq_along(carrs_recode_list)) {
 
 saveRDS(
   dyads_list,
-  paste0(path_spouses_diabetes_folder, "/working/preprocessing/psdpre03_spouse dyad dataset_list.RDS")
+  paste0(path_spouses_diabetes_folder, "/working/preprocessing/psdpre03_spouse_dyad_dataset_list.RDS")
 )
 
 # Pooled spouse descriptives using Rubin's rules
